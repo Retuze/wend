@@ -187,26 +187,16 @@
   <article class="post-article">
     <section class="markdown-content"><p>Git 是一种分布式版本控制系统，可以轻松地跟踪代码的变化，并允许您与他人协作。本教程将指导您完成 Git 的下载和安装过程，并说明如何配置 SSH 连接。</p>
 <ol>
-<li>下载 Git<br>首先，您需要从 Git 的<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">官方网站</a>下载 Git。根据您的操作系统，选择相应的下载链接。</li>
+<li><p>下载 Git<br>首先，您需要从 Git 的<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">官方网站</a>下载 Git。根据您的操作系统，选择相应的下载链接。<br>对于 Windows 用户，选择 <code>msys-git.zip</code> 或 <code>Git-bash.exe</code>，根据您的偏好进行选择。<br>对于 macOS 用户，选择 <code>git-macos.pkg</code>。<br>对于 Linux 用户，您需要从您的发行版的软件源安装 Git。</p>
+</li>
+<li><p>安装 Git<br>下载完成后，您可以开始安装 Git。<br>对于 Windows 用户：</p>
+</li>
 </ol>
-<p>对于 Windows 用户，选择 <code>msys-git.zip</code> 或 <code>Git-bash.exe</code>，根据您的偏好进行选择。</p>
-<p>对于 macOS 用户，选择 <code>git-macos.pkg</code>。</p>
-<p>对于 Linux 用户，您需要从您的发行版的软件源安装 Git。</p>
-<ol start="2">
-<li>安装 Git<br>下载完成后，您可以开始安装 Git。</li>
-</ol>
-<p>对于 Windows 用户：</p>
 <ul>
 <li>解压缩 <code>msys-git.zip</code> 或 <code>Git-bash.exe</code> 到您的目标文件夹。</li>
-<li>打开 <code>Git Bash</code> 或 <code>Git Shell</code>（如果您使用了 Git Bash），您现在已进入 Git 的命令行界面。</li>
-</ul>
-<p>对于 macOS 用户：</p>
-<ul>
+<li>打开 <code>Git Bash</code> 或 <code>Git Shell</code>（如果您使用了 Git Bash），您现在已进入 Git 的命令行界面。<br>对于 macOS 用户：</li>
 <li>运行 <code>git-macos.pkg</code> 并按照提示完成安装过程。</li>
-<li>在安装完成后，您可以在 <code>/usr/local/bin/git</code> 中找到 Git 可执行文件。您可以在终端中运行 <code>git</code> 来检查安装是否成功。</li>
-</ul>
-<p>对于 Linux 用户：</p>
-<ul>
+<li>在安装完成后，您可以在 <code>/usr/local/bin/git</code> 中找到 Git 可执行文件。您可以在终端中运行 <code>git</code> 来检查安装是否成功。<br>对于 Linux 用户：</li>
 <li>打开终端并使用您的包管理器安装 Git。例如，对于 Ubuntu，您可以运行以下命令：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install git</span><br></pre></td></tr></table></figure></li>
 </ul>
 <ol start="3">
